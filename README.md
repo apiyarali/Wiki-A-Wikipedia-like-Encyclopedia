@@ -2,10 +2,9 @@
 
 This is a Django web application that emulates core functionality of Wikipedia. Users can view, search, create, edit, and explore encyclopedia entries written in Markdown, which are then rendered into HTML for display. 
 
-**_No external markdown libraries used for converting markdown to HTML, all conversion was done via custom parsing with Regex._**
-
 <img src="https://github.com/apiyarali/Wiki-A-Wikipedia-like-Encyclopedia/blob/07b3234928d89f00c9303a4da273f0cf8d11e3f5/screenshots/wiki_main.jpg" alt="wiki_main" width="200">
 
+**_No external markdown libraries used for converting markdown to HTML, all conversion was done via custom parsing with Regex._**
 ```bash
           (r'\r',r''), # Remove carriage retrun
           (r'(?<!\*)\*\s+(.+)',r'<li>\1</li>'), # List tag
