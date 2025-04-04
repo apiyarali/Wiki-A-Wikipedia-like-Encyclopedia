@@ -1,0 +1,45 @@
+Some of the code techniques used in this app are taken from:
+
+READING FILE:
+
+https://www.programiz.com/python-programming/file-operation
+https://www.w3schools.com/python/python_file_handling.asp
+https://www.afterhoursprogramming.com/tutorial/python/reading-files/
+
+
+REGULAR EXPRESSION:
+
+https://regex101.com/
+https://www.youtube.com/watch?v=K8L6KVGG-7o
+https://www.youtube.com/playlist?list=PLyb_C2HpOQSDxe5Y9viJ0JDqGUCetboxB
+https://jwcooney.com/2014/03/03/regular-expression-to-get-the-last-instance-of-a-word/
+
+SEARCH:
+
+List Comprehnsion:
+
+https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
+https://thispointer.com/python-how-to-check-if-an-item-exists-in-list-search-by-value-or-condition/
+https://www.geeksforgeeks.org/python-check-if-any-element-in-list-satisfies-a-condition/
+https://www.w3schools.com/python/ref_func_any.asp
+http://openbookproject.net/thinkcs/python/english3e/lists.html
+
+Django GET request:
+https://docs.djangoproject.com/en/3.0/ref/request-response/
+https://learndjango.com/tutorials/django-search-tutorial
+
+FORMS:
+https://www.youtube.com/watch?v=3XOS_UpJirU
+https://djangobook.com/mdj2-django-forms/
+https://www.tutorialspoint.com/django/django_form_processing.htm
+https://tutorial.djangogirls.org/en/django_forms/
+
+
+
+
+
+
+
+
+
+
