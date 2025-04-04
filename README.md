@@ -38,7 +38,7 @@ This is a Django web application that emulates core functionality of Wikipedia. 
 ## 📂 Project Structure
 
 wiki/ ├── </br>
-  &nbsp├── encyclopedia/ # Main Django app │ </br> 
+  &nbsp;├── encyclopedia/ # Main Django app │ </br> 
         &nbsp&nbsp├── templates/ # HTML templates │ </br>
         &nbsp&nbsp├── urls.py # URL routing │ </br>
         &nbsp&nbsp├── views.py # View logic │ </br>
