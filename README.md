@@ -6,6 +6,23 @@ This is a Django web application that emulates core functionality of Wikipedia. 
 
 <img src="https://github.com/apiyarali/Wiki-A-Wikipedia-like-Encyclopedia/blob/07b3234928d89f00c9303a4da273f0cf8d11e3f5/screenshots/wiki_main.jpg" alt="wiki_main" width="200">
 
+```bash
+          (r'\r',r''), # Remove carriage retrun
+          (r'(?<!\*)\*\s+(.+)',r'<li>\1</li>'), # List tag
+          (r'^#{1}(?!#)\s(.+)',r'<h1>\1</h1>'), # H1 tag
+          (r'^#{2}(?!#)\s(.+)',r'<h2>\1</h2>'), # H2 tag
+          (r'^#{3}(?!#)\s(.+)',r'<h3>\1</h3>'), # H3 tag
+          (r'^#{4}(?!#)\s(.+)',r'<h4>\1</h4>'), # H4 tag
+          (r'^#{5}(?!#)\s(.+)',r'<h5>\1</h5>'), # H5 tag
+          (r'^#{6}(?!#)\s(.+)',r'<h6>\1</h6>'), # H6 tag
+          (r'\*\*(.+?)\*\*',r'<strong>\1</strong>'), #Strong tag
+          (r'\n(?=\w)',r'\n<p>'), # P Start tag
+          (r'(<p>)(.+)', r'\1\2</p>'), # P Close tag
+          (r'\[(.*?)\]\((.*?)\)',r'<a href="\2">\1</a>'), #Link
+          (r'((?<!\n\<\/li\>)<li>(.|\n)*?\<\/li\>(?!\n\<li\>))',r'<ul>\1</ul>'), #UL tag
+          (r'\n\n',r'<br>') #Newline
+    ```
+
 ## 🔍 Features
 
 - **Entry Pages**  
