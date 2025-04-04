@@ -38,14 +38,14 @@ This is a Django web application that emulates core functionality of Wikipedia. 
 ## 📂 Project Structure
 
 wiki/ ├── </br>
-  ├── encyclopedia/ # Main Django app │ </br> 
-        ├── templates/ # HTML templates │ </br>
-        ├── urls.py # URL routing │ </br>
-        ├── views.py # View logic │ </br>
-        ├── util.py # Markdown conversion & file I/O </br>
-   ├── entries/ # Markdown files for each entry </br>
-   ├── wiki/ # Project configuration </br>
-   └── manage.py </br>
+  &nbsp├── encyclopedia/ # Main Django app │ </br> 
+        &nbsp&nbsp├── templates/ # HTML templates │ </br>
+        &nbsp&nbsp├── urls.py # URL routing │ </br>
+        &nbsp&nbsp├── views.py # View logic │ </br>
+        &nbsp&nbsp├── util.py # Markdown conversion & file I/O </br>
+   &nbsp├── entries/ # Markdown files for each entry </br>
+   &nbsp├── wiki/ # Project configuration </br>
+   &nbsp└── manage.py </br>
 
 ## 🧰 Technologies Used
 
